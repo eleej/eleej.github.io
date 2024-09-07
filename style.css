@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > ul > li {
+  list-style: none;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid red;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main > img {
+  width: 33.33%;
+  height: 200px;
+}
+
+footer ul > li {
+  list-style:none;
+}
